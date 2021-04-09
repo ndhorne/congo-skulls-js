@@ -2,13 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="A remake of Toggle Booleans' 1993 Windows 3.1 freeware classic Amazon Skulls in JavaScript with some new features/amenities including local multiplayer, custom grid size, and undo (ctrl+z). Each piece played (with the exception of the first piece) must border the last piece played and border that piece only. The first player to play a piece bordering more than one piece (the last piece) loses the game. Make the last valid move to win!">
+    <meta name="description" content="Congo Skulls is a JavaScript remake of Toggle Booleans' 1993 Windows 3.1 freeware classic Amazon Skulls with some new features">
     <meta name="author" content="Nicholas Horne">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
       Congo Skulls
     </title>
     <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Stick&display=swap"
+      rel="stylesheet"
+    >
   </head>
   
   <body>
@@ -20,7 +25,7 @@
     
     <div id="happyFacesOption">
       <input type="checkbox" id="happyFacesToggle" name="happyFacesToggle">
-      <label for="happyFacesToggle"
+      <label for="happyFacesToggle" style="vertical-align: 15%;"
         title="Toggle between skull and happy face playing pieces"
       >
         Congo Happy Faces

@@ -67,6 +67,12 @@ button {
   margin-left: 20px;
   margin-right: 20px;
   font-family: Stick, Arial, Helvetica, sans-serif;
+  vertical-align: top;
+}
+
+#player1InputOptions {
+  margin-top: 2px;
+  visibility: hidden;
 }
 
 #player2Options {
@@ -75,6 +81,12 @@ button {
   margin-left: 20px;
   margin-right: 20px;
   font-family: Stick, Arial, Helvetica, sans-serif;
+  vertical-align: top;
+}
+
+#player2InputOptions {
+  margin-top: 2px;
+  visibility: visible;
 }
 
 #gridOptions {
@@ -83,6 +95,7 @@ button {
   margin-left: 20px;
   margin-right: 20px;
   font-family: Stick, Arial, Helvetica, sans-serif;
+  vertical-align: top;
 }
 
 #newGameButton {
